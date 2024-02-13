@@ -12,7 +12,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.security.PublicKey;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -40,11 +39,6 @@ public class InvoiceServiceImpl implements  InvoiceService {
         return null;
     }
 
-//    @Override
-//    public Invoice createInvoice(Invoice invoice) {
-//        return null;
-//    }
-//
 //    @Override
 //    public Invoice createInvoice(Invoice invoice) {
 //        Invoice invoiceDB = invoiceRepository.findByNumberInvoice(invoice.getNumberInvoice());
@@ -88,11 +82,6 @@ public class InvoiceServiceImpl implements  InvoiceService {
     public Invoice getInvoice(Long id) {
         return null;
     }
-
-//    @Override
-//    public Invoice getInvoice(Long id) {
-//        return invoiceRepository.findById(id).orElse(null);
-//}
 
 //    @Override
 //    public Invoice getInvoice(Long id) {
