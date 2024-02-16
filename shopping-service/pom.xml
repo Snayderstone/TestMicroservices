@@ -79,6 +79,12 @@
 			<version>2.2.2.RELEASE</version>
 		</dependency>
 
+		<!-- Monitoring-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
