@@ -1,5 +1,6 @@
 version: '3'
 services:
+  #Monitoreo
   prometheus:
     container_name: prometheus_container
     image: prom/prometheus:v2.37.1
@@ -17,3 +18,11 @@ services:
     image: grafana/grafana-oss:8.5.2
     ports:
       - "3000:3000"
+
+  #Tracing
+  zipkin:
+    container_name: zipkin_container
+    image : openzipkin/zipkin
+    ports:
+      - "9441:9411"
+
