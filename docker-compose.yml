@@ -22,7 +22,7 @@ services:
   #Tracing
   zipkin:
     container_name: zipkin_container
-    image : openzipkin/zipkin
+    image : openzipkin/zipkin:2.23.8
     ports:
       - "9441:9411"
 
